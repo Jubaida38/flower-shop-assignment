@@ -1,4 +1,17 @@
 
+.btn-primary{
+    margin-top: 40px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px;
+    border: 0;
+}
+
+
 
         /* header styles */
 
@@ -37,17 +50,6 @@
     width: 600px;
     margin: auto;
 }
-.btn-primary{
-    margin-top: 40px;
-    border-radius: 8px;
-    background: #E55473;
-    color: #FFF;
-    font-family: Lato;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 15px;
-
-}
 
         /* feature flower styles */
 
@@ -80,21 +82,23 @@
     
 }
 .pink-img{
-    width: 265px;
-    /* height: 340px; */
+    width: 250px;
+    height: 365px;
     background-color: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
     padding: 50px;
     padding-bottom: 0;
     margin-left: 10px;
+    margin-bottom: 0;
 }
 .pink-img1{
-    width: 265px;
+    width: 250px;
     height: 325px;
     background-color:  rgba(5, 151, 160, 0.15);
     border-radius: 300px 300px 0px 0px;
     padding: 45px;
     margin-left: 10px;
+    margin-bottom: 0;
 
 }
 .pink-img2{
@@ -104,19 +108,166 @@
     border-radius: 300px 300px 0px 0px;
     padding-top: 9px;
     margin-left: 10px;
+    margin-bottom: 0;
 }
-/* .pink-flower1{
-    background-color: rgba(167, 33, 98, 0.15);
-    border-radius: 300px 300px 0px 0px;
-    
-    
+.pink-title{
+    text-align: center;
+    color: 272727;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 100px;
 }
-.pink-flower2{
-    background-color:  rgba(5, 151, 160, 0.15);
-    border-radius: 300px 300px 0px 0px;
-}
-.pink-flower{
-    background-color: rgba(71, 125, 17, 0.15);
-    border-radius: 300px 300px 0px 0px;
 
-} */
+        /* click-collect styles */
+
+
+
+.click{
+    color: rgba(39, 39, 39, 0.80);
+
+    border-radius: 8px;
+    display: flex;
+    width: 950px;
+    text-align: center;
+    margin: auto;
+    justify-content: space-around;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 30px 50px;
+   
+
+
+}
+
+/* hot-deal styles */
+
+.hot-deal{
+    display: flex;
+    background: rgba(229, 84, 115, 0.05);
+    align-items: center;
+    margin-top: 60px;
+    padding: 50px 50px 50px 00px;
+    gap: 50px;
+    
+}
+.hot-deal-topic{
+    width: 600px;
+    padding-left: 150px;
+    align-items: center;
+}
+.hot-deal-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+.Off{
+    color: #E55473;
+}
+.deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.hot-deal > img{
+    /* padding-left: 50px; */
+}
+
+.button{
+    text-align: center;
+    margin-top: 5px;
+   margin-left: 255px;
+   padding: 18px 30px;
+   font-size: 20px;
+   font-weight: 700;
+   border: 0px;
+   background: #E55473;
+   color: #FFF;
+}
+
+        /* Instagram styles */
+.insta{
+    margin-top: 50px;
+    text-align: center;
+}
+.insta-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+.insta-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    width: 600px;
+    margin: auto;
+    line-height: 25px;
+}
+.insta-img{
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.insta-img> img{
+    width:220px;
+    margin-right: 20px;
+   
+
+}
+
+            /* Latest Deals */
+
+
+.latest-deals{
+    background-image: url('../Flower Asset/Rectangle 9.png');
+    height: 100vh;
+    width: 72%;
+    margin: auto;
+    background-repeat: no-repeat;
+   background-size: 100%;
+   margin-left: 175px;
+   margin-top: 70px;
+
+}
+
+.latest-topic{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.latest-title{
+    padding-top: 70px;
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+.latest-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-family: Laro;
+    font-weight: 400px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+input{
+    width: 45%;
+    border: 0px;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+/* footer section */
